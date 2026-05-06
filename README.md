@@ -20,3 +20,14 @@ git commit -m "feat: Initial setup"
 git push origin master
 git pull origin master
 ```
+
+## PYTHON Foundation
+
+Primitive Variables
+- Function
+- Object
+- Class
+- Class Deep
+- Operation & Conditions
+- Loops
+- ...
