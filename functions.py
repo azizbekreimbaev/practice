@@ -1,0 +1,39 @@
+'''FUNCTIONS
+(1) DEFINE vs CALL
+(2) Paramets and Arguments
+(3) Keyword and default arguments
+(4) Scope
+'''
+
+# bu builtins dunder olinmoqda built in function
+print("======== DEFINE and CALL =========")
+
+# build in functions => print() type() .....
+# Function - reusable block of code
+# in JAVA we use {} for block, but in Python it has indentation concept
+
+# DEFINE - parameter
+# def greet(a):
+#     pass  #DEFINE qilib hech bir ish bajarmasa function indentationnidan chiqish uchun pass syntaxni yozish kerak
+
+
+def greet(a):
+    print(f"How do you do, {a}")
+
+
+# CALL - argument
+greet("Kevin")
+
+res1 = greet("MIT42")
+print("In Python output of VOID Functions is ", res1)
+# REATURN and VOID
+# VOID function output is None
+
+
+def greeting(b):
+    print("greeting is executed")
+    return f"Hi {b}"
+
+
+res2 = greeting("Fede")
+print("Return Function output used with return syntax:", res2)
