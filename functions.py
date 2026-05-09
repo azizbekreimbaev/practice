@@ -37,3 +37,22 @@ def greeting(b):
 
 res2 = greeting("Fede")
 print("Return Function output used with return syntax:", res2)
+
+
+print("======== Keyword and default arguments =========")
+
+
+# def give(name, age):
+#     print("give is executed")
+#     return f"{name} is {age} yeard old"
+
+def give(name, age=25):
+    print("give is executed")
+    return f"{name} is {age} yeard old"
+
+
+res3 = give(name="Kevin", age=40)
+print(res3)
+
+res4 = give(name="Fede")
+print(res4)
