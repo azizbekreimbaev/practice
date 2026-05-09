@@ -56,3 +56,31 @@ print(res3)
 
 res4 = give(name="Fede")
 print(res4)
+
+
+print("======== SCOPE =========")
+'''
+Priority 
+(1) Determines inside function
+(2) Determines in paramentes and arguments
+(3) Determines outside of function
+'''
+
+b = 100
+
+
+def calc(a, b):
+    c = a * b
+    print(f"{c}")
+
+
+calc(10, 10)
+
+
+def calc2(a):
+    c = a * b
+    print(f"{c}")
+
+
+calc2(10)
+
