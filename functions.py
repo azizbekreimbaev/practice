@@ -83,4 +83,3 @@ def calc2(a):
 
 
 calc2(10)
-
