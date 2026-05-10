@@ -49,3 +49,7 @@ print(f"agar mavjud bolmasa biz bergab qiymat qaytarsin {balance}")
 for key in person_obj:
     # print(key)
     print(f"the key: {key} ==> value {person_obj[key]}")
+
+
+
+
