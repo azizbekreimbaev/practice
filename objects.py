@@ -5,13 +5,13 @@
 (4) Error handling system
 '''
 
+import array  # package/module
+from math import ceil, asin
+import math
 print("====== What is object? =======")
 # Object has state and method properties
 # Everything is object in Python!
 
-import array  #package/module
-import math
-from math import ceil, asin
 
 print(type("Hello"))
 print(type(100))
@@ -19,10 +19,10 @@ print(type(True))
 print(type(array))
 print(type(math))
 
-#Paradigms ==> Functional programming and OOP
-#OOB 4 concepts ==> Abstraction | Encapsulation | Inherintance | Polimorphism
+# Paradigms ==> Functional programming and OOP
+# OOB 4 concepts ==> Abstraction | Encapsulation | Inherintance | Polimorphism
 
-res1 = math.ceil(33.6)  #CALL
+res1 = math.ceil(33.6)  # CALL
 print(res1)
 
 res2 = ceil(88.6)
