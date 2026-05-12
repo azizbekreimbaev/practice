@@ -34,34 +34,33 @@ print("====== Error handling system =======")
 
 car_dict = dict(name="MERC", year=2027, elctric=True)
 
+# try:
+#     print("passed here")
+#     result = car_dict["origin"]
+#     print("result", result)
+# except KeyError as err:
+#     print("state is not found:", err)
+# else:
+#     print("Executed succeed without errors")
+# finally:
+#     print("Final step")
+# print("==============")
+# try:
+#     print("passed here")
+#     result = car_dict["year"]
+#     print("result", result)
+# except KeyError as err:
+#     print("state is not found:", err)
+# else:
+#     print("Executed succeed without errors")
+# finally:
+#     print("Final step")
 
-try:
-    print("passed here")
-    result = car_dict["origin"]
-    print("result", result)
-except KeyError as err:
-    print("state is not found:", err)
-else:
-    print("Executed succeed without errors")
-finally:
-    print("Final step")
 print("==============")
-try:
-    print("passed here")
-    result = car_dict["year"]
-    print("result", result)
-except KeyError as err:
-    print("state is not found:", err)
-else:
-    print("Executed succeed without errors")
-finally:
-    print("Final step")
-
-print("==============")
 
 try:
     print("passed here")
-    a = car_dict.speed
+    # a = car_dict.speed
     result = car_dict["year"]
     print("result", result)
 except KeyError as err:
