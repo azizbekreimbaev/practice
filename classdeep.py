@@ -83,7 +83,6 @@ finally:
 
 # my_account.change_ownership("Fede")
 # print("after account_owner:", my_account.holder)
-
 print("Owner before:", my_account.holder)
 my_account.holder = "Fede"  # state
 print("Owner after:", my_account.holder)
