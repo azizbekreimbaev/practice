@@ -27,7 +27,12 @@ Primitive Variables
 - Function
 - Object
 - Class
-- Class Deep
+- Class 4 concepts
 - Operation & Conditions
 - Loops
+- Tuple
+- List 
+- Array
+- Comprehension
+- Debugging
 - ...
