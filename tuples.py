@@ -79,4 +79,27 @@ def intro(**kwargs):
     pass
 
 
-intro(name="kevin", age=25)  # berilayotgan argumentlarimiz miqdori noaniq bolsa bu dictionary unpacking bilan unpack qilamiz
+# berilayotgan argumentlarimiz miqdori noaniq bolsa bu dictionary unpacking bilan unpack qilamiz
+intro(name="kevin", age=25)
+
+
+def greeting(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+
+greeting("Hi", True, 10, name="Kevin", age=25)
+
+print("========== Zip ==========")
+
+
+# zip iterable object
+tuple1 = (1, 3, 4, 5)
+tuple2 = ("a", "b", "c")
+
+zipped = zip(tuple1, tuple2)
+print(zipped)
+
+result = list(zipped)  # constructorga beramiz
+# arrayni return qiladi va ikkita tupledan kelib chiqib juftliklarni qaytaradi
+print(result)
